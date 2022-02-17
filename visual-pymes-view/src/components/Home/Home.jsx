@@ -5,6 +5,7 @@ import Product from "./Product/Product.jsx";
 import "./Home.css";
 import Create from "./Product/Create.jsx";
 import {carousel} from "./data.js";
+import "./Carousel/Carousel.css";
 
 
 const Home = () => {
