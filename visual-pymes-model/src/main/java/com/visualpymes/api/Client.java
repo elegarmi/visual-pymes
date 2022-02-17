@@ -15,16 +15,19 @@ public class Client {
     @Lob
     private String description;
     private double price;
+    private String category;
 
 
     public Client(){
 
     }
-    public Client(String name, String image, String description, double price) {
+    public Client(String name, String image, String description, double price, String category) {
         this.name = name;
         this.image = image;
         this.description = description;
         this.price = price;
+        this.category = category;
+
     }
 
     public Long getId(){
@@ -43,30 +46,33 @@ public class Client {
         this.name = name;
     }
 
-    public String getImage() {
-        return image;
-    }
+    public String getImage() { return image;  }
 
-    public void setImage(String image) {
-        this.image = image;
-    }
+    public void setImage(String image) { this.image = image; }
 
     public String getDescription() {
         return description;
     }
 
-    public String getImage() { return image; }
-
-    public void setImage(String image) { this.image = image; }
-
     public void setDescription(String description) {
         this.description = description;
     }
+
     public double getPrice() {
         return price;
     }
+
     public void setPrice (double price) {
         this.price = price;
     }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
+
 
 }
