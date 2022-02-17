@@ -7,11 +7,14 @@
     /* background-color: var(--colorWhite) */
 }
 
-
 :root {
     --colorOliveGreen: #698A2E;
     --colorYellow: #FFDA1A;
     --colorWhite: #F7F6F2;
     --colorGrey: #D7D4CC
         /* Font misses  */
+}
+
+body {
+    background-color: var(--colorWhite);
 }

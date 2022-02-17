@@ -1,0 +1,38 @@
+.main-img {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    border: 10px solid var(--colorYellow);
+}
+
+.secondary-images {
+    width: 100%;
+    margin: auto;
+    background-color: var(--colorGrey);
+    padding-top: 20px;
+
+}
+
+
+.secondary-img {
+    border: solid 2px
+}
+
+.card-details-info {
+    width: 80%;
+}
+
+.button {
+    background-color: var(--colorYellow)
+}
+
+
+.button--contact {
+    width: 100%;
+}
+
+.title-card2 {
+    background-color: var(--colorOliveGreen);
+    color: white;
+    width: 100%;
+}
