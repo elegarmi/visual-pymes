@@ -1,0 +1,44 @@
+.register {
+    background-image: url(../../assets/register-bg.jpg);
+}
+
+.register__form {
+    background: var(--colorYellow);
+    border: 1px solid #E5E5E5;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1.5rem;
+    width: 28rem;
+}
+
+.register__form > * {
+    margin-bottom: 2rem;
+}
+
+.register__form #formUserName,
+.register__form #formPhone,
+.register__form #formMail,
+.register__form #formBrandName,
+.register__form #formAddress,
+.register__form #formDescription {
+    text-align: center;
+}
+
+.register__form #formDescription {
+    min-height: 8rem;
+}
+
+.register__form .form-check {
+    text-align: left;
+}
+
+.register__form button.btn {
+    background: #D7D4CC;
+    border: none;
+    border-radius: 15px;
+    color: #000000;
+    font-weight: bold;
+    padding: 0.8rem 1.5rem;
+    box-shadow: 1px 2px 2px 2px #0000003f;
+}

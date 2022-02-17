@@ -1,6 +1,6 @@
 import "./makeorder.css";
-import Create from './Product/Create';
-import image from './compra.png';
+import Create from '../Product/Create';
+import image from '../../assets/compra.png';
 
 const MakeOrder = () => {
     return (
