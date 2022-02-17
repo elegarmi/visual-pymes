@@ -5,6 +5,7 @@ import Home from "./components/Pages/Home.jsx";
 import CardDetails from "./components/Product/CardDetails.jsx";
 import RegisterView from "./components/Pages/RegisterView.jsx";
 import CreateView from "./components/Pages/CreateView";
+import MakeOrder from "./components/Home/MakeOrder"
 import Layout from "./components/Layout/Layout.jsx";
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
             <Route path="/details/:id" element={<CardDetails />} />
             <Route path="/register" element={<RegisterView />} />
             <Route path="/create" element={<CreateView />} />
-            <Route path="*" element={<Navigate replace to="/" />} />
+            <Route path="/makeorder" element={<MakeOrder />} />
+            <Route path="*" element={<Navigate replace to="/" />} />       
           </Route>
         </Routes>
       </HashRouter>

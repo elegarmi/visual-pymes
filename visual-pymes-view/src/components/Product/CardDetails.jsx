@@ -56,7 +56,7 @@ const CardDetails = () => {
                 <p className="card-text d-flex justify-content-end pe-2 fs-4">
                   {price} €
                 </p>
-                <Link to="/" class="btn button button--contact">
+                <Link to="/makeorder" class="btn button button--contact">
                   Contacto
                 </Link>
               </div>
