@@ -1,16 +1,21 @@
 import React from "react";
-// import Nav from "react-bootstrap/Nav";
+import Nav from "react-bootstrap/Nav";
 import { Link } from "react-router-dom";
 
 const NavMenu = () => {
   return (
-    <div>
-        <Link to="/">Inicio</Link>
+    <Nav activeKey="/">
+      <Nav.Item>
+        <Link to="/" class="nav-link">Inicio</Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Link to="/registrar" class="nav-link">Registrar</Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Link to="/create" class="nav-link">Crear anuncio</Link>
+      </Nav.Item>
+    </Nav>
 
-        {/* <Link eventKey="link-1">Registrar</Link> */}
-
-        <Link to="/create">Crear anuncio</Link>
-    </div>
   );
 };
 
