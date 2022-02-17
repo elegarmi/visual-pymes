@@ -16,12 +16,13 @@ const MakeOrder = () => {
               <h2>Gracias por confiar en </h2>
               <div>
                   <h3>Visual</h3><h3>Pymes</h3>
-              </div>
-              <div classname="img-order">
+                  <span className="text-yellow">Visual</span><span className="text-green">Pymes</span>
+                  <div classname="img-order">
                 <img  src={image} alt="" />
               </div>
+              </div>
+              
           </div>
-
       </div>
     );
   };
