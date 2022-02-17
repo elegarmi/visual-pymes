@@ -1,0 +1,14 @@
+.create-makeorder{
+    display: flex;
+    justify-content: center;
+}
+.img-order{
+    padding-top: 100px;
+}
+.text-yellow {
+    color: var(--colorYellow);
+}
+
+.text-green {
+    color: var(--colorOliveGreen);
+}

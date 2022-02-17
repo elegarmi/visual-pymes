@@ -1,22 +1,16 @@
 import React from "react";
-import Nav from "react-bootstrap/Nav";
+// import Nav from "react-bootstrap/Nav";
+import { Link } from "react-router-dom";
 
 const NavMenu = () => {
   return (
-    <Nav
-        activeKey="/home"
-        onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
-        >
-        <Nav.Item>
-            <Nav.Link href="/home">Inicio</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-            <Nav.Link eventKey="link-1">Registrar</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-            <Nav.Link eventKey="link-2">Crear anuncio</Nav.Link>
-        </Nav.Item>
-    </Nav>
+    <div>
+        <Link to="/">Inicio</Link>
+
+        {/* <Link eventKey="link-1">Registrar</Link> */}
+       
+        <Link to="/create">Crear anuncio</Link>
+    </div>
   );
 };
 

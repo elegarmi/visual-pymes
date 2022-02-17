@@ -1,8 +1,8 @@
 import React from "react";
 import { products } from "./data.js";
 import Product from "./Product/Product.jsx";
-/* import Searchbar from "./Searchbar/Searchbar"; */
 import "./Home.css";
+<<<<<<< HEAD
 import Create from "./Product/Create.jsx";
 import {carousel} from "./data.js";
 import "./Carousel/Carousel.css";
@@ -40,17 +40,28 @@ const Home = () => {
       </button>
     </div>
       <div className="home">
+=======
+
+const Home = () => {
+  return (
+    <div className="home">
+>>>>>>> develop
       <article className="home__cards">
         {products.map((product) => (
           <Product
             id={product.id}
+            key={product.id}
             name={product.name}
             image={product.image}
             price={product.price}
           />
         ))}
+<<<<<<< HEAD
       </article></div>
           <Create />
+=======
+      </article>
+>>>>>>> develop
     </div>
   );
 };
