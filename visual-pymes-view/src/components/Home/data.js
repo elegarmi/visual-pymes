@@ -313,3 +313,14 @@ export const categories = [
     url: "https://drive.google.com/uc?export=view&id=1vnSW6OS35GhHTKoktHgGT7DBcOLzJzXD",
   },
 ];
+export const carousel = [
+  {
+    url: "https://drive.google.com/uc?export=view&id=1NoZ7idFQgKOxGm-EB2U-2aT9CKBUtNqX",
+  },
+  {
+    url: "https://drive.google.com/uc?export=view&id=1NoZ7idFQgKOxGm-EB2U-2aT9CKBUtNqX",
+  },
+  {
+    url: "https://drive.google.com/uc?export=view&id=1NoZ7idFQgKOxGm-EB2U-2aT9CKBUtNqX",
+  }
+]
