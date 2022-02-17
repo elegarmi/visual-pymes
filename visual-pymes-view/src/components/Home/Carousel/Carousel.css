@@ -1,13 +1,11 @@
 .carousel-item{
-    width: 100vw;
     height: 35vh;
     object-fit: contain;
 
 }
 .carousel-item > img{
-    width: 50vw;
-    
+    height: 600px;
 }
 .slider_buttons{
-    button-background: #FFDA1A;
+    background: #FFDA1A;
 }

@@ -1,106 +1,106 @@
 export const products = [
   {
     id: 1,
-    name: "Galleta redonda con mermelada de durazno",
-    category: "Galletas de mantequilla",
+    name:"Jabones Artesanales",
+    category: "Jabones naturales Lavanda",
     price: 2.5,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image:
-      "https://drive.google.com/uc?export=view&id=1FfBf7S80n8a-XiLs4aojCNSKdtIpzZBn",
+      "https://i.pinimg.com/564x/bf/89/6f/bf896f07832d5d472050572aeafa5f0c.jpg",
   },
   {
     id: 2,
-    name: "Galleta corazón con mermelada de durazno",
-    category: "Galletas de mantequilla",
-    type: "Galleta",
-    subcategory: "Galletas con mermelada",
+    name: "Catus",
+    category: "Cactucitos mexicanos",
+    type: "Cactus",
+    subcategory: "Planta",
     price: 2.5,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image:
-      "https://drive.google.com/uc?export=view&id=1T055RythP5MrhV_bBmXs1V6Hw7pO7ElO",
+      "https://i.pinimg.com/564x/bc/74/4e/bc744eed0c36320ee001dfe1c8b17c37.jpg",
   },
   {
     id: 3,
-    name: "Galleta corazón con mermelada de mora",
-    category: "Galletas de mantequilla",
+    name: "Pastel de chocolate",
+    category: "Comida",
     price: 2.5,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image:
-      "https://drive.google.com/uc?export=view&id=1pugSXgzR9jUH6fMNrv3sNyTueAXD8o3n",
+      "https://i.pinimg.com/564x/54/9b/f9/549bf9c15cf17243c9e6d1885fcb5fed.jpg",
   },
   {
     id: 4,
-    name: "Galleta corazón tradicional",
-    category: "Galletas de mantequilla",
+    name: "Mermelada de Higo",
+    category: "Comida",
     price: 1.5,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image:
-      "https://drive.google.com/uc?export=view&id=1ACUwfca_V276qWZRwUqLkYuyAzg__Yjx",
+      "https://i.pinimg.com/564x/39/51/98/3951981d9e38a4e582c36c7c4cb97e48.jpg",
   },
   {
     id: 5,
-    name: "Galleta redonda tradicional",
-    category: "Galletas de mantequilla",
+    name: "Libro de Recortes",
+    category: "Album",
     price: 1.5,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image:
-      "https://drive.google.com/uc?export=view&id=1IfRbVP0FJNnIXXJtm0Yc2uev-N04Str_",
+      "https://i.pinimg.com/originals/7e/76/4f/7e764fafbc31e88446dcfe29f05afae5.jpg",
   },
   {
     id: 6,
-    name: "Galleta redonda con mermelada de mora",
-    category: "Galletas de mantequilla",
+    name: "Prendedores",
+    category: "Adorno Camisa",
 
     price: 2.5,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image:
-      "https://drive.google.com/uc?export=view&id=1crE833FWcqEW7dwcj7fCzg0JLAZ0tYJo",
+      "https://i.pinimg.com/564x/f8/fc/7e/f8fc7e5644b695e25913684a2ece6879.jpg",
   },
   {
     id: 7,
-    name: "Muffin grande de banano",
-    category: "Muffins y panes de banano",
+    name: "Tarjetas Personalizadas",
+    category: "Tajetas",
     price: 4,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image:
-      "https://drive.google.com/uc?export=view&id=1fBU_ukGbIN3oPnpykb_SEkl2m2B1Mcb-",
+      "https://i.pinimg.com/564x/ae/cb/2c/aecb2ce35b46631751c1154d8cc33604.jpg",
   },
   {
     id: 8,
-    name: "Muffin pequeño de banano",
-    category: "Muffins y panes de banano",
+    name: "Peinados",
+    category: "peluqueria",
     price: 2,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image:
-      "https://drive.google.com/uc?export=view&id=1lgc2HfoFxcp8-MQzGd-n8p08UAI-nSUk",
+      "https://i.pinimg.com/564x/3f/28/92/3f28922034bde330a3faa50d6e5b886f.jpg",
   },
   {
     id: 9,
-    name: "Muffin pequeño de banano con nueces",
-    category: "Muffins y panes de banano",
+    name: "Amigurumi",
+    category: "Adorno",
     price: 2.5,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image:
-      "https://drive.google.com/uc?export=view&id=1-Gocn-zJeIIyrd34Z2pxy9eOWYIvr2I7",
+      "https://www.lovelycraft.com/wp-content/uploads/2021/07/baby-yoda-legs-ear.jpg",
   },
   {
     id: 10,
-    name: "Muffin grande de banano con nueces",
+    name: "Ropa para perritos",
     category: "Muffins y panes de banano",
     price: 3,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image:
-      "https://drive.google.com/uc?export=view&id=1EuSlEdna9KOxwh8HcVgPaBhjLgk2F899",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjyiSuQKCd_eH4Vg5_S633IHGVE_Ka3m6CrA&usqp=CAU",
   },
 ];
 

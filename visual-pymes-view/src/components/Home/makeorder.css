@@ -1,7 +1,13 @@
-.create-makeorder{
+.create-makeorder {
+    padding: 8rem 0;
     display: flex;
     justify-content: center;
 }
+
+.create-makeorder .row {
+    gap: 4rem;
+}
+
 .img-order{
     padding-top: 100px;
 }
