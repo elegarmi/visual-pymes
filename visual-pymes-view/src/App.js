@@ -1,21 +1,22 @@
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
-import Header from "./components/Home/Header/Header.jsx";
 import Home from "./components/Home/Home.jsx";
-import Footer from "./components/Home/Footer/Footer";
-
+import CardDetails from "./components/Home/Product/CardDetails.jsx";
+import CreateView from "./components/Home/CreateView";
+import Layout from "./components/Layout/Layout.jsx";
 function App() {
   return (
     <div className="App">
       <HashRouter>
-        <Header />
         <Routes>
-          <Route index element={<Home />} />
-          {/*           <Route path="/products/:id" element={<ProductDetails />} />
-          <Route path="/products/category/:id" element={<Products />} /> */}
-          <Route path="*" element={<Navigate replace to="/" />} />
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="/details/:id" element={<CardDetails />} />
+            <Route path="/create" element={<CreateView />} />
+            <Route path="*" element={<Navigate replace to="/" />} />
+          </Route>
         </Routes>
-        <Footer />
       </HashRouter>
     </div>
   );

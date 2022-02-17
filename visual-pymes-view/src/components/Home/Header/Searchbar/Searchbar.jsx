@@ -20,7 +20,7 @@ const Searchbar = (props) => {
         value={name}
         onChange={(e) => setName(e.target.value)}
       ></input>
-      <BsSearch fill="#FFDA1A" stroke-width="0.2" height="2em" width="2em" />
+      <BsSearch fill="#FFDA1A" strokeWidth="0.2" height="2em" width="2em" />
       {/* <input type="submit"></input> */}
     </form>
   );
