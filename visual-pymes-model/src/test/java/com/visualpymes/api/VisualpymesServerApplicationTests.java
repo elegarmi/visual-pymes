@@ -40,7 +40,7 @@ class VisualpymesServerApplicationTests {
                 .andExpect(jsonPath("$[1].name", equalTo("Cliente 2: Tu pasteleria")))
                 .andExpect(jsonPath("$[0].image", equalTo("../img/peinado.png")))
                 .andExpect(jsonPath("$[1].image", equalTo("../img/torta.png")))
-                .andExpect(jsonPath("$[0].description", equalTo("paquete completo lavado, secado, peinado")))
+                .andExpect(jsonPath("$[0].description", equalTo("Paquete completo lavado, secado, peinado")))
                 .andExpect(jsonPath("$[1].description", equalTo("Torta chocolate dos pisos")))
                 .andExpect(jsonPath("$[0].price", equalTo(50.0)))
                 .andExpect(jsonPath("$[1].price", equalTo(20.0)))
