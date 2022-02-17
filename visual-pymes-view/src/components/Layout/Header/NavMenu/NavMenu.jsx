@@ -9,7 +9,7 @@ const NavMenu = () => {
         <Link to="/" class="nav-link">Inicio</Link>
       </Nav.Item>
       <Nav.Item>
-        <Link to="/registrar" class="nav-link">Registrar</Link>
+        <Link to="/register" class="nav-link">Registrar</Link>
       </Nav.Item>
       <Nav.Item>
         <Link to="/create" class="nav-link">Crear anuncio</Link>

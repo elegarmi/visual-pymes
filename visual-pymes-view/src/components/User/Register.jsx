@@ -18,7 +18,7 @@ const Register = () => {
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="formMail">
-                <Form.Control as="text" type="text" placeholder="Mail" />
+                <Form.Control type="text" placeholder="Mail" />
             </Form.Group>
             
             <h5>¿Quieres crear anuncios?</h5>
@@ -32,7 +32,7 @@ const Register = () => {
                 <Form.Control type="text" placeholder="Dirección" />
             </Form.Group>
 
-            <Form.Group className="mb-3" controlId="formMail">
+            <Form.Group className="mb-3" controlId="formDescription">
                 <Form.Control as="textarea" type="textarea" placeholder="Descripción" />
             </Form.Group>
 

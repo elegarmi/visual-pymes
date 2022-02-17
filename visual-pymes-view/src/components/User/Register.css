@@ -1,8 +1,14 @@
+.register {
+    background-image: url(https://t4.ftcdn.net/jpg/02/86/36/11/360_F_286361199_fzZsOpZ3memFzCn889a9TZHMuTTsFrVl.jpg);
+}
+
 .register__form {
+    background: var(--colorYellow);
     border: 1px solid #E5E5E5;
-    padding: 1.5rem;
     border-radius: 15px;
     text-align: center;
+    margin: 0 auto;
+    padding: 1.5rem;
     width: 28rem;
 }
 
@@ -10,8 +16,11 @@
     margin-bottom: 2rem;
 }
 
-.register__form #formProductName,
-.register__form #formPrice,
+.register__form #formUserName,
+.register__form #formPhone,
+.register__form #formMail,
+.register__form #formBrandName,
+.register__form #formAddress,
 .register__form #formDescription {
     text-align: center;
 }
@@ -25,10 +34,10 @@
 }
 
 .register__form button.btn {
-    background: var(--colorYellow);
+    background: #D7D4CC;
     border: none;
     border-radius: 15px;
-    color: #ffffff;
+    color: #000000;
     font-weight: bold;
     padding: 0.8rem 1.5rem;
     box-shadow: 1px 2px 2px 2px #0000003f;
