@@ -1,0 +1,29 @@
+.navbar {
+    background: #ffffff;
+    padding: 0 1.5rem;
+    min-height: 5rem;
+}
+
+#header__navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar form {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.navbar .nav__search {
+    background: var(--colorWhite);
+    border: 1px solid var(--colorYellow);
+    border-radius: 10px;
+    padding: 0 0.5rem;
+}
+
+.navbar form svg {
+    height: 2rem;
+    width: 2rem;
+    margin: -1.5rem;
+}

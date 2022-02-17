@@ -1,0 +1,30 @@
+.card {
+    box-shadow: 2px 2px 2px 2px #0000003f;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 20%;
+    height: 22rem;
+    overflow: hidden;
+    background-color: white;
+}
+
+.card__img {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+}
+
+.card__info {
+    padding: 0.5rem 1rem;
+    color: var(--colorOliveGreen);
+    background-color: white;
+}
