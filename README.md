@@ -18,6 +18,7 @@ Emprendedores a tu alcance
 ## Project setup, install required dependencies
 ```
 npm install
+npm install react-router-dom
 npm install react-icons --save
 ```
 
