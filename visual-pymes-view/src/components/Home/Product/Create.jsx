@@ -8,7 +8,7 @@ import "./Create.css";
 const Create = (props) => {
     const {title, input1, input2, input3, nameButton } = props;
     return (
-        <Form className="create__form">
+        <Form className="create__form col col-lg-6 col-xs-12">
             <h5>{title}</h5> 
             <Form.Group className="mb-3" controlId="formProductName">
                 <Form.Control type="text" placeholder={input1} />
