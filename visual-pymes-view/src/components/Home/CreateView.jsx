@@ -8,6 +8,7 @@ const CreateView = () => {
         <Create  title="Crear nuevo anuncio" input1="Nombre del producto" 
           input2="Precio (0,00 €)" input3="Descripción"
           nameButton= "Crear"/>
+          <p></p>
     </div>
   );
 };
