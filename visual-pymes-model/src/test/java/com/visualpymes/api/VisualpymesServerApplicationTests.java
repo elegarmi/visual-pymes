@@ -28,7 +28,9 @@ class VisualpymesServerApplicationTests {
     ClientRepository clientRepository;
 
     @Test
+    
     @WithMockUser
+
     void returnsTheExistingClients() throws Exception {
 
         addSampleClients();
