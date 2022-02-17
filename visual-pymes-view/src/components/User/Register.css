@@ -1,0 +1,35 @@
+.register__form {
+    border: 1px solid #E5E5E5;
+    padding: 1.5rem;
+    border-radius: 15px;
+    text-align: center;
+    width: 28rem;
+}
+
+.register__form > * {
+    margin-bottom: 2rem;
+}
+
+.register__form #formProductName,
+.register__form #formPrice,
+.register__form #formDescription {
+    text-align: center;
+}
+
+.register__form #formDescription {
+    min-height: 8rem;
+}
+
+.register__form .form-check {
+    text-align: left;
+}
+
+.register__form button.btn {
+    background: var(--colorYellow);
+    border: none;
+    border-radius: 15px;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0.8rem 1.5rem;
+    box-shadow: 1px 2px 2px 2px #0000003f;
+}

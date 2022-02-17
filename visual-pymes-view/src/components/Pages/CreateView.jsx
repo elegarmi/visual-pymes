@@ -1,6 +1,7 @@
 import React from "react";
-import "./Home.css";
-import Create from "./Product/Create.jsx";
+import Create from "../Home/Product/Create.jsx";
+
+import "./CreateView.css";
 
 const CreateView = () => {
   return (
