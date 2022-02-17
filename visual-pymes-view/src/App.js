@@ -2,7 +2,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 import Home from "./components/Pages/Home.jsx";
-import CardDetails from "./components/Home/Product/CardDetails.jsx";
+import CardDetails from "./components/Product/CardDetails.jsx";
 import RegisterView from "./components/Pages/RegisterView.jsx";
 import CreateView from "./components/Pages/CreateView";
 import Layout from "./components/Layout/Layout.jsx";

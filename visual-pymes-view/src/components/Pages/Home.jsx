@@ -1,6 +1,6 @@
 import React from "react";
-import { products } from "../Home/data.js";
-import Product from "../Home/Product/Product.jsx";
+import { products } from "./data.js";
+import Product from "../Product/Product";
 import "./Home.css";
 
 const Home = () => {
