@@ -8,7 +8,7 @@ const NavMenu = () => {
         <Link to="/">Inicio</Link>
 
         {/* <Link eventKey="link-1">Registrar</Link> */}
-
+       
         <Link to="/create">Crear anuncio</Link>
     </div>
   );

@@ -5,6 +5,9 @@ import Home from "./components/Home/Home.jsx";
 import CardDetails from "./components/Home/Product/CardDetails.jsx";
 import CreateView from "./components/Home/CreateView";
 import Layout from "./components/Layout/Layout.jsx";
+import MakeOrder from "./components/Home/MakeOrder"
+
+
 function App() {
   return (
     <div className="App">
@@ -14,7 +17,9 @@ function App() {
             <Route index element={<Home />} />
             <Route path="/details/:id" element={<CardDetails />} />
             <Route path="/create" element={<CreateView />} />
+            <Route path="/makeorder" element={<MakeOrder />} />
             <Route path="*" element={<Navigate replace to="/" />} />
+           
           </Route>
         </Routes>
       </HashRouter>
